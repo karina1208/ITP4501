@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_temp01"
+    tools:context=".starting">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <ImageButton
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@drawable/startani"
+        android:onClick="onClick"/>
+
+    <ImageButton
+        android:id="@+id/btnHistory"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@drawable/historyani"
+        android:onClick="onClickHistory"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+
+
+
+
+
+</LinearLayout>
